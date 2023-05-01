@@ -1,0 +1,16 @@
+export const defaultTheme = {
+  primary: "Lato, sans-serif",
+  secondary: "Work Sans, sans-serif",
+  dark: "#09090A",
+  green: "#42A235",
+  white: "#FFFFFF",
+  "white-200": "#f3f5f6",
+  orange: "#F9C57C",
+  "blue-10": "#EFF8FF",
+  "blue-50": "#AADEEA",
+  "blue-100": "#009CC2",
+  "blue-200": "#115D8C",
+  "blue-600": "#1A2853",
+  "blue-800": "#082345",
+  "blue-900": "#111A37",
+};
