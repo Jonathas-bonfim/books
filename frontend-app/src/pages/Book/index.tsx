@@ -11,7 +11,7 @@ export function Book() {
   const { bookId } = useParams()
   const book = bookDataContext.find(book => book.objectId === String(bookId))
   const bookRandom = allBooksContext.sort(() => Math.random() - 0.5).slice(0, 3)
-  if (!book) return
+  if (!book) return null;
 
   if (!book.goodReadingsRating) {
     updateBookContext(book.isbn);
